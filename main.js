@@ -94,5 +94,5 @@ function check(){
 
 	document.getElementById("after_submit").style.visibility = "visible";
 
-	document.getElementById("number_correct").innerHTML = "You are " + level/730*100 + "% thot";
+	document.getElementById("number_correct").innerHTML = "You are " + Math.round(level/730*100) + "% thot";
 	}
