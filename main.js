@@ -49,8 +49,8 @@ function check(){
 	if (question7 == "Post Malone") {
 		level += 75;
 }
-	if (question7 == "A Boogie") {
-		level += 55;
+	if (question7 == "Drake") {
+		level += 75;
 }
 	if (question7 == "Travis Scott") {
 		level += 75;
