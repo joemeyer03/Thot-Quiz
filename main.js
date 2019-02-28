@@ -10,6 +10,8 @@ function check(){
 	var question8 = document.quiz.question8.value;
 	var question9 = document.quiz.question9.value;
 	var question10 = document.quiz.question10.value;
+	var question11 = document.quiz.question11.value;
+	var question12 = document.quiz.question12.value;
 	var level = 0;
 
 
@@ -49,8 +51,8 @@ function check(){
 	if (question7 == "Post Malone") {
 		level += 75;
 }
-	if (question7 == "Drake") {
-		level += 75;
+	if (question7 == "A Boogie") {
+		level += 55;
 }
 	if (question7 == "Travis Scott") {
 		level += 75;
@@ -94,7 +96,15 @@ function check(){
 	if (question11 == "Yes") {
 		level += 75;
 }
+	if (question12 == "3") {
+		level += 15;
+}
+	if (question12 == "6") {
+		level += 45;
+}
+
+	
 
 	document.getElementById("after_submit").style.visibility = "visible";
-	document.getElementById("number_correct").innerHTML = "You are " + Math.round(level/805*100) + "% thot";
+	document.getElementById("number_correct").innerHTML = "You are " + Math.round(level/850*100) + "% thot";
 	}
